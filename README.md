@@ -76,5 +76,25 @@
 
 ## 面试可讲点
 
-第一版项目不追求复杂模型，而是先把岗位 JD、简历文本、技能关键词和投递记录打通。后续会接入大模型 API，用 Prompt 约束输出为 JSON，再引入 RAG 做岗位知识库检索。
-```
+
+## 项目架构
+
+```text
+ai-resume-matcher/
+├── README.md
+├── docs/
+│   ├── api-design.md
+│   └── database-design.md
+├── sql/
+│   └── init.sql
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── com/
+    │   │       └── matcher/
+    │   │           ├── controller/
+    │   │           ├── service/
+    │   │           ├── mapper/
+    │   │           └── entity/
+    │   └── resources/
+    └── test/
