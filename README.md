@@ -80,6 +80,7 @@
 ## 项目架构
 
 ```text
+
 ai-resume-matcher/
 ├── README.md
 ├── docs/
@@ -98,3 +99,4 @@ ai-resume-matcher/
     │   │           └── entity/
     │   └── resources/
     └── test/
+```
